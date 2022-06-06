@@ -1,0 +1,64 @@
+body{
+  /*background-image: url(https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);*/
+  background-color:#B8FFF9;
+  width: auto;
+ }
+ hr{
+   border-style:none;
+   border-top-style: dotted;
+   border-color:#D61C4E;
+   border-width: 7px;
+   width: 50px;
+ }
+ h1{
+  color: #D61C4E;
+  font-family:"Lucida Handwriting",cursive;
+  font-size: 50px;
+ }
+ h3{
+   color: #FF6F3C; font-family: "Lucida Console",monospace;
+   font-size: 25px;
+ }
+fieldset {
+  border-style:dashed;
+  border-color:#D61C4E;
+  border-width: 2px;
+  width: 450pX; /* Height and width can take values in pixel(PX) and percentage(%).*/
+}
+p{
+  color: #001E6C;
+  font-family: "Monaco",monospace;
+  font-size:1em; /* 1em = 16px*/
+  font-weight: 900; /* Font weight is use to change the weight (Boldnes) of the font.*/
+}
+table{
+  color: #001E6C;
+  font-family: "Comic Sans MS",cursive;
+  font-size:24px;
+  border: solid;
+  border-width: 3px;
+  border-color: yellow;
+  border-style: solid;
+  border-radius: 10px;  /* if we need curved edges, then border-radius property can be used.*/
+}
+li{
+  color: #001E6C;
+  font-family: "Bradley Hand",cursive;
+  font-size: 20px;
+}
+
+/****************************CLASS SELECTORS****************************/
+
+
+.Highlight:hover{
+  color: Red;
+  font-size:18px;
+}
+/****************************ID SELECTORS****************************/
+/****************************use = #name for id****************************/
+/*
+.name of id{
+height: 200px;
+width: 200px;
+}
+*/
